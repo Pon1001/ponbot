@@ -1,0 +1,21 @@
+{
+  "name": "ponbot",
+  "packageManager": "yarn@4.0.0-rc.43",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node .",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "discord.js": "^14.10.2",
+    "dotenv": "^16.0.3",
+    "tslog": "^4.8.2"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@commitlint/cli": "^17.6.3",
+    "@commitlint/config-conventional": "^17.6.3",
+    "husky": "^8.0.3",
+    "typescript": "^5.0.4"
+  }
+}
